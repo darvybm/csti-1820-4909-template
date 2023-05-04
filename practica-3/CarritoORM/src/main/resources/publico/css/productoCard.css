@@ -1,0 +1,94 @@
+.card h2 {
+    font-weight: 900;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container-maxW {
+    max-width: 1200px
+}
+
+
+
+.card h5 {
+    height: 60PX;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.card p {
+    height: 50px;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all .25s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06)
+}
+.card:hover .card-img-top {
+    transform: scale(0.96);
+    transition: all .25s ease-in-out
+}
+
+.label-top {
+    position: absolute;
+    background-color: #8bc34a;
+    color: #fff;
+    top: 8px;
+    right: 8px;
+    padding: 5px 10px 5px 10px;
+    font-size: .7rem;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+.top-right {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 900;
+    background: #ff5722;
+    line-height: 90px;
+    text-align: center;
+    color: white
+}
+
+.top-right span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.card btn {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 50px 5px 50px
+}
+
+.price-hp {
+    font-weight: 600;
+    color: seagreen;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3rem;
+}
+
+
+
