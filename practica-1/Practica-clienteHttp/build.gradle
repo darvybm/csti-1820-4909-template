@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'edu.pucmm.eict.darvybm'
+version '1.0-SNAPSHOT'
+
+mainClassName='edu.pucmm.eict.darvybm.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.apache.httpcomponents:httpclient:4.5'
+    implementation 'org.jsoup:jsoup:1.15.3'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+run{
+    standardInput = System.in
+}
